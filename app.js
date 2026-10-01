@@ -57,3 +57,89 @@ new MutationObserver(decorate).observe(document.documentElement,{attributes:true
 decorate();
 })();
 
+// English milestones accompany every original paragraph in its original order.
+(() => {
+const steps=[
+ ['There is more in you','You have begun to look beyond survival. Keep reading to discover the possibilities already within you.','Name one ability you want to give more room to grow.','Discover your potential'],
+ ['A fresh direction starts today','Your experience can support your next beginning. Now turn that possibility into a choice.','Choose one thing you want to do differently today.','Choose your direction'],
+ ['One decision can open a door','You can give your life a new direction. Next, explore the fear that sometimes stands at the entrance.','Identify one familiar habit you could replace with a better choice.','Look beyond fear'],
+ ['Courage can begin before confidence','Fear does not have to make the decision for you. Read on to see how action can build confidence.','Name one small step you can take while still feeling uncertain.','Find your first step'],
+ ['Let action become confidence','A small step gives you experience to build on. Now discover how learning keeps that movement alive.','Choose one manageable action you can try today.','Keep your mind growing'],
+ ['Stay curious. Stay in motion.','Learning gives your next step a stronger foundation. Let the next words help you turn understanding into action.','Write down one question you would like to understand better.','Put learning to work'],
+ ['Your experience has depth','What you learn and what you have lived can both shape your strength. Keep reading to find meaning in your story.','Recall one lesson a difficult experience taught you.','Discover the light in your story'],
+ ['Your story can help someone continue','Your experience may become a source of understanding for another person. Next, connect that strength with purpose.','Think of someone who might benefit from a lesson you have learned.','Build a meaningful purpose'],
+ ['Purpose grows through contribution','Purpose can take shape in the way you help, solve and create. Keep going to connect your learning with real value.','Choose one problem you could help make a little easier.','Turn knowledge into value'],
+ ['Let what you know reach someone','Your learning can become useful beyond yourself. Next, look at the value no salary can fully measure.','Choose one helpful thing you could share with another person.','Recognize your true worth'],
+ ['Your value runs deeper','Character, compassion and experience matter. Now give those strengths the support of consistent action.','Name one quality you value in yourself that income cannot measure.','Give your strengths consistency'],
+ ['Show up before the perfect mood','A meaningful direction becomes stronger through practice. Read on to see what small repeated steps can build.','Choose a realistic time tomorrow to work on your future.','Build a steady rhythm'],
+ ['Small steps deserve protection','Consistency gives you momentum. The next part helps you care for the thoughts that guide that momentum.','Choose one small action you can repeat, even on an ordinary day.','Protect your inner world'],
+ ['Become a kinder voice to yourself','What you let into your mind matters. Keep reading and try speaking these next words as encouragement to yourself.','Replace one harsh thought with a kind, truthful sentence.','Make room to begin again'],
+ ['A new chapter is still possible','You can learn, begin again and grow. Next, look at the future you can start building in the present.','Name one choice you can make today that supports the person you want to become.','Step into your next chapter'],
+ ['Let the future have room','Learning can lead to creating and, in time, helping others learn. Carry that possibility into the final message.','Picture one way your growth could give another person courage.','Choose a meaningful life'],
+ ['Meaning begins in ordinary actions','Learning, helping and caring can give today direction. Let the next words remind you that your story continues.','Pick one small act of learning, service or self-care for today.','Read the words you may need'],
+ ['You are still becoming','You have reached the closing invitation. Gather what matters to you and take it into your next real step.','Choose the one idea from this reading that you want to practice first.','Carry the light forward'],
+ ['Now give your next step a date','Reading has opened a possibility. A small action can carry it into your life.','Decide what you will do, when you will begin and how you will return to it tomorrow.','Revisit your beginning']
+];
+const style=document.createElement('style');
+style.textContent=`
+html[lang=en] .reading-content>p{font-size:clamp(19px,1.65vw,22px);line-height:1.9;margin-bottom:20px;scroll-margin-top:32px}
+html[lang=en] .reading-content>p:first-child:first-letter{float:none;font:inherit;padding:0;color:inherit}
+.en-source-heading{font-family:'Libre Baskerville',serif;font-size:clamp(27px,2.6vw,38px);font-weight:700;line-height:1.4;letter-spacing:-.035em;color:#253b63;margin:35px 0 18px;scroll-margin-top:32px}
+.en-milestone{--accent:#96451c;position:relative;isolation:isolate;background:linear-gradient(125deg,#fff2bc,#ffe0a6 55%,#ffd2bf);border:1px solid #eec48b;border-radius:28px;padding:clamp(24px,4vw,44px);margin:32px 0 38px;box-shadow:0 16px 42px #a4612224,inset 0 1px 0 #fff;overflow:hidden}
+.en-milestone:before{content:'';position:absolute;z-index:-1;inset:-70px -65px auto auto;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,#ffffffb3,transparent 70%);pointer-events:none}
+.en-milestone.tone-1{--accent:#12665e;background:linear-gradient(125deg,#ddfaf4,#b8eee5 60%,#dcf3ff);border-color:#95d8cf}
+.en-milestone.tone-2{--accent:#663693;background:linear-gradient(125deg,#f6eaff,#e6d2ff 60%,#fce1ed);border-color:#cfb1eb}
+.en-milestone.tone-3{--accent:#9b3940;background:linear-gradient(125deg,#fff0d1,#ffd3c2 60%,#ffdfeb);border-color:#edb0a1}
+.en-milestone .en-kicker{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:12px}
+.en-star{font-size:28px;line-height:1;filter:drop-shadow(0 2px 8px #fff)}
+.en-milestone h3{font-family:'DM Sans',sans-serif;font-size:clamp(29px,3.2vw,44px);font-weight:700;line-height:1.15;letter-spacing:-.035em;margin:18px 0;color:#172e4d;text-shadow:0 1px 0 #ffffff80}
+.en-milestone p{font-size:clamp(18px,1.5vw,21px);line-height:1.75;margin:0;color:#2a3d59}
+.en-action{background:#ffffff9e;border:1px solid #ffffffbf;border-radius:16px;margin-top:22px;padding:18px 22px}
+.en-action strong{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);margin-bottom:7px}
+.en-controls{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin-top:25px}
+.en-commit{font:700 16px/1.5 'DM Sans',sans-serif;padding:14px 22px;border:0;border-radius:14px;background:#203c5b;color:white;cursor:pointer;min-height:48px;box-shadow:0 6px 15px #203c5b20;transition:background .2s}
+.en-commit[aria-pressed=true]{background:#176257}
+.en-next{font-size:16px;font-weight:700;color:#243f63;padding:10px 3px;text-underline-offset:6px;min-height:48px}
+.en-track{margin-top:26px;height:5px;border-radius:10px;overflow:hidden;background:#ffffffb3}
+.en-track span{display:block;height:100%;background:var(--accent);border-radius:10px}
+.en-controls :focus-visible{outline:3px solid #243f63;outline-offset:5px}
+@media(max-width:600px){.en-controls{align-items:stretch;flex-direction:column;gap:10px}.en-commit{width:100%}.en-milestone{border-radius:22px}.en-action{padding:16px}html[lang=en] .reading-meta{white-space:normal}}
+@media(prefers-reduced-motion:reduce){.en-commit{transition:none}}
+`;
+document.head.append(style);
+const headings=new Set([0,3,7,13,20,26,31,41,45,51,59,64]);
+const commitments=new Set();
+function decorate(){
+ if(document.documentElement.lang!=='en')return;
+ const article=document.getElementById('content');
+ if(article.querySelector('.en-milestone'))return;
+ const source=[...article.querySelectorAll(':scope > p')];
+ if(source.length!==75)return;
+ source.forEach((p,i)=>{
+  p.id=`en-reading-${i}`;p.dataset.sourceIndex=i;
+  if(headings.has(i)){
+   const h=document.createElement(i===0?'h2':'h3');h.textContent=p.textContent;
+   h.className='en-source-heading';h.id=p.id;h.dataset.sourceIndex=i;p.replaceWith(h);
+  }
+ });
+ steps.forEach(([title,message,action,cta],n)=>{
+  const after=n===18?74:(n+1)*4-1;
+  const card=document.createElement('section');card.className=`en-milestone tone-${n%4}`;
+  card.setAttribute('aria-labelledby',`en-milestone-title-${n}`);
+  card.innerHTML=`<div class="en-kicker"><span aria-hidden="true" class="en-star">✦</span> Milestone ${String(n+1).padStart(2,'0')} / 19</div><h3 id="en-milestone-title-${n}">${title}</h3><p>${message}</p><div class="en-action"><strong>One small action</strong><p>${action}</p></div><div class="en-controls"><button type="button" aria-pressed="${commitments.has(n)}" class="en-commit">${commitments.has(n)?'Step chosen — keep moving ✓':'I choose this step ✓'}</button><a class="en-next" href="#${n===18?'journey':`en-reading-${after+1}`}">${cta} <span aria-hidden="true">→</span></a></div><div class="en-track" aria-hidden="true"><span style="width:${(n+1)/19*100}%"></span></div>`;
+  card.querySelector('button').addEventListener('click',e=>{
+   const b=e.currentTarget;const on=b.getAttribute('aria-pressed')!=='true';
+   b.setAttribute('aria-pressed',String(on));if(on)commitments.add(n);else commitments.delete(n);
+   b.textContent=on?'Step chosen — keep moving ✓':'I choose this step ✓';
+  });
+  article.querySelector(`[data-source-index="${after}"]`).after(card);
+ });
+ article.querySelectorAll('.en-next').forEach(link=>link.addEventListener('click',()=>{
+  const target=document.querySelector(link.getAttribute('href'));
+  if(target){target.setAttribute('tabindex','-1');target.focus({preventScroll:true});}
+ }));
+}
+new MutationObserver(decorate).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
+decorate();
+})();
+
