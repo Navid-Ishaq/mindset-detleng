@@ -1,5 +1,81 @@
 const copy={en:{eyebrow:'A new beginning starts within',title:'Change your thinking.<br><em>Change your life.</em>',lede:'Your thoughts shape the direction of your life. This is your invitation to pause, awaken, and choose a more courageous way forward.',cta:'Begin your journey',note:'A quiet place for meaningful change',badge:'Awaken',label:'The journey inward',sectionTitle:'Every transformation begins with a thought.',sectionText:'Read slowly. Let the words meet you where you are. Within these pages, you may find a question you have been avoiding, a strength you forgot, or the first small step toward the life you truly want to live.',cardText:'Your inner world is not a prison. It is a starting point.',readEyebrow:'The complete reading',readTitle:'A mind opened is a life expanded.',readMeta:'Read at your own pace',closingEyebrow:'The next chapter is yours',closingTitle:'You do not need a new life.<br><em>You need a new lens.</em>',closingCta:'Return to the beginning'},ur:{eyebrow:'ایک نئی شروعات اندر سے جنم لیتی ہے',title:'اپنی سوچ بدلو۔<br><em>اپنی زندگی بدلو۔</em>',lede:'آپ کے خیالات آپ کی زندگی کی سمت طے کرتے ہیں۔ یہ دعوت ہے کہ رکیں، بیدار ہوں اور آگے بڑھنے کا ایک زیادہ بہادر راستہ منتخب کریں۔',cta:'اپنا سفر شروع کریں',note:'بامعنی تبدیلی کے لیے ایک پُرسکون جگہ',badge:'بیداری',label:'اندر کی طرف سفر',sectionTitle:'ہر تبدیلی ایک خیال سے شروع ہوتی ہے۔',sectionText:'آہستہ پڑھیں۔ ان الفاظ کو وہاں آپ سے ملنے دیں جہاں آپ آج کھڑے ہیں۔ ان صفحات میں شاید آپ کو کوئی ایسا سوال ملے جس سے آپ بچتے رہے ہیں، کوئی بھولی ہوئی طاقت ملے، یا اس زندگی کی طرف پہلا چھوٹا قدم ملے جسے آپ واقعی جینا چاہتے ہیں۔',cardText:'آپ کی اندرونی دنیا قید خانہ نہیں۔ یہ ایک نقطۂ آغاز ہے۔',readEyebrow:'مکمل مطالعہ',readTitle:'کھلا ہوا ذہن، وسیع تر زندگی۔',readMeta:'اپنی رفتار سے پڑھیں',closingEyebrow:'اگلا باب آپ کا ہے',closingTitle:'آپ کو نئی زندگی کی ضرورت نہیں۔<br><em>آپ کو ایک نئی نظر کی ضرورت ہے۔</em>',closingCta:'ابتدا کی طرف واپس جائیں'}};
-let lang='en';const content=document.querySelector('#content');function render(next){lang=next;document.documentElement.lang=lang==='ur'?'ur':'en';document.body.classList.toggle('rtl',lang==='ur');document.querySelectorAll('[data-copy]').forEach(el=>{el.innerHTML=copy[lang][el.dataset.copy]||''});document.querySelectorAll('.lang-btn').forEach(b=>{const on=b.dataset.lang===lang;b.classList.toggle('active',on);b.setAttribute('aria-pressed',on)});document.querySelector('#hero-image').src=lang==='ur'?'assets/hero-ur.png':'assets/hero-en.png';document.querySelector('#hero-image').alt=lang==='ur'?'روشنی کی طرف بڑھتا ہوا شخص':'A person walking towards light at dawn';content.innerHTML=window.MINDSET_CONTENT[lang].map(p=>`<p>${p}</p>`).join('');document.querySelector('#paragraph-count').textContent=lang==='ur'?`${window.MINDSET_CONTENT.ur.length} حصے`:`${window.MINDSET_CONTENT.en.length} reflections`}document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>render(b.dataset.lang)));render('en');
+
+// The existing English and Urdu decorators below remain unchanged.
+const romanBlocks=window.MINDSET_CONTENT.roman;
+const sourceSpan=i=>'<span data-roman-source="'+i+'">'+escapeText(romanBlocks[i])+'</span>';
+function escapeText(value){return value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+copy.roman={eyebrow:sourceSpan(0),title:sourceSpan(1)+'<br><em>'+sourceSpan(2)+'</em>',lede:sourceSpan(3),cta:sourceSpan(4),note:sourceSpan(5),badge:sourceSpan(7),label:sourceSpan(8),sectionTitle:sourceSpan(9),sectionText:sourceSpan(10),cardText:sourceSpan(12),readEyebrow:sourceSpan(13),readTitle:sourceSpan(14),readMeta:'',closingEyebrow:sourceSpan(269),closingTitle:sourceSpan(270)+'<br><em>'+sourceSpan(271)+'</em>',closingCta:sourceSpan(272)};
+const extraSlots=['.hero .cta .arrow','.image-badge','.section-label','.compass','.reading-meta','.closing-cta .arrow','.site-footer'];
+const slotMarkup=extraSlots.map(selector=>[selector,document.querySelector(selector).innerHTML]);
+let romanChosen=new Set();
+try{const saved=JSON.parse(localStorage.getItem('mindset-roman-commitments')||'[]'); if(Array.isArray(saved))romanChosen=new Set(saved.filter(i=>Number.isInteger(i)&&i>=0&&i<17))}catch(_){}
+const romanHeadingIndices=new Set([16,17,19,30,51,69,89,107,138,154,174,204,229]);
+function makeRomanReading(){
+ const fragment=document.createDocumentFragment();let milestone=0;
+ for(let i=16;i<269;i++){
+  if(/^Roshan Manzil \d+ \/ 17$/.test(romanBlocks[i])){
+   const start=i;const section=document.createElement('section');section.className='roman-milestone tone-'+milestone%4;section.setAttribute('aria-labelledby','roman-milestone-title-'+milestone);
+   let end=start;while(end<269&&!romanBlocks[end].endsWith(' →'))end++;
+   const action=romanBlocks.indexOf('Ab Ek Chhota Amal',start);const commit=romanBlocks.indexOf('Yeh Qadam Mera Azm Hai ✓',action);
+   let markup='<p class="roman-kicker">'+sourceSpan(start)+'</p><h3 id="roman-milestone-title-'+milestone+'">'+sourceSpan(start+1)+'</h3>';
+   for(let j=start+2;j<action;j++)markup+='<p>'+sourceSpan(j)+'</p>';
+   markup+='<div class="roman-action"><strong>'+sourceSpan(action)+'</strong>';
+   for(let j=action+1;j<commit;j++)markup+='<p>'+sourceSpan(j)+'</p>';
+   markup+='</div><div class="roman-controls"><button type="button" class="roman-commit" data-step="'+milestone+'" aria-pressed="'+romanChosen.has(milestone)+'">'+sourceSpan(commit)+'</button><a class="roman-next" href="'+(milestone===16?'#journey':'#roman-reading-'+(end+1))+'">'+sourceSpan(end)+'</a></div><div class="roman-track" aria-hidden="true"><span style="width:'+((milestone+1)/17*100)+'%"></span></div>';
+   section.innerHTML=markup;fragment.append(section);milestone++;i=end;
+  }else{
+   const tag=i===16?'h2':romanHeadingIndices.has(i)?'h3':'p';const el=document.createElement(tag);el.id='roman-reading-'+i;el.dataset.sourceIndex=i;el.className=tag==='p'?'':'roman-source-heading';el.innerHTML=sourceSpan(i);fragment.append(el);
+  }
+ }
+ return fragment;
+}
+let lang='en';const content=document.querySelector('#content');
+function render(next,keepPosition=false){
+ if(!copy[next])next='en';
+ const oldLang=lang;const oldNodes=[...content.children];const nearest=keepPosition?oldNodes.find(e=>e.getBoundingClientRect().bottom>120):null;
+ const fraction=nearest?oldNodes.indexOf(nearest)/Math.max(1,oldNodes.length-1):null;
+ const hash=location.hash;lang=next;
+ slotMarkup.forEach(([selector,markup])=>document.querySelector(selector).innerHTML=markup);
+ document.documentElement.lang=lang==='roman'?'ur-Latn':lang;
+ document.documentElement.dir=lang==='ur'?'rtl':'ltr';document.body.classList.toggle('rtl',lang==='ur');
+ document.body.classList.remove('lang-en','lang-roman','lang-ur');document.body.classList.add('lang-'+lang);
+ document.querySelectorAll('[data-copy]').forEach(el=>{el.innerHTML=copy[lang][el.dataset.copy]||''});
+ document.querySelectorAll('.lang-btn').forEach(b=>{const on=b.dataset.lang===lang;b.classList.toggle('active',on);b.setAttribute('aria-pressed',on)});
+ const image=document.querySelector('#hero-image');image.src=lang==='ur'?'assets/hero-ur.png':'assets/hero-en.png';image.alt=lang==='roman'?romanBlocks[6]:lang==='ur'?'روشنی کی طرف بڑھتا ہوا شخص':'A person walking towards light at dawn';
+ const caption=document.querySelector('.roman-image-caption');if(caption)caption.remove();
+ if(lang==='roman'){
+  const caption=document.createElement('p');caption.className='roman-image-caption';caption.innerHTML=sourceSpan(6);document.querySelector('.image-frame').before(caption);
+  document.querySelector('.hero .cta .arrow').hidden=true;document.querySelector('.closing-cta .arrow').hidden=true;
+  document.querySelector('.image-badge').innerHTML=sourceSpan(7);document.querySelector('.section-label').innerHTML=sourceSpan(8);document.querySelector('.compass').innerHTML=sourceSpan(11);
+  document.querySelector('.reading-meta').innerHTML=sourceSpan(15);content.replaceChildren(makeRomanReading());
+  document.querySelector('.site-footer').innerHTML='<div class="footer-brand">'+sourceSpan(273)+'</div><p>'+sourceSpan(274)+'</p><span>'+sourceSpan(275)+'</span>';
+ }else{
+  document.querySelector('.hero .cta .arrow').hidden=false;document.querySelector('.closing-cta .arrow').hidden=false;
+  content.innerHTML=window.MINDSET_CONTENT[lang].map(p=>'<p>'+p+'</p>').join('');
+  document.querySelector('#paragraph-count').textContent=lang==='ur'?window.MINDSET_CONTENT.ur.length+' حصے':window.MINDSET_CONTENT.en.length+' reflections';
+ }
+ try{localStorage.setItem('mindset-language',lang)}catch(_){}
+ requestAnimationFrame(()=>{
+  let target=null;
+  if(keepPosition&&oldLang!==lang&&fraction!==null&&window.scrollY>document.querySelector('.content-shell').offsetTop-200){const nodes=[...content.children];target=nodes[Math.round(fraction*(nodes.length-1))];}
+  if(hash&&/^#(?:en|ur|roman)-(?:reading|milestone-title)-/.test(hash)&&!document.getElementById(hash.slice(1))){target=target||content.firstElementChild;history.replaceState(null,'','#'+target.id);}
+  if(target){if(!target.id)target=target.querySelector('[id]')||content.firstElementChild;if(hash&&hash!=='#top'&&hash!=='#journey')history.replaceState(null,'','#'+target.id);target.scrollIntoView({behavior:'instant',block:'start'});}
+  else if(hash){const linked=document.getElementById(hash.slice(1));if(linked&&!keepPosition)linked.scrollIntoView({behavior:'instant'});}
+ });
+}
+document.querySelectorAll('.lang-btn').forEach(b=>b.addEventListener('click',()=>{if(b.dataset.lang!==lang)render(b.dataset.lang,true)}));
+document.querySelector('.language-switcher').addEventListener('keydown',event=>{
+ if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
+ const buttons=[...document.querySelectorAll('.lang-btn')];let index=buttons.indexOf(document.activeElement);if(index<0)return;event.preventDefault();index=event.key==='Home'?0:event.key==='End'?buttons.length-1:(index+(event.key==='ArrowRight'?1:-1)+buttons.length)%buttons.length;buttons[index].focus();buttons[index].click();
+});
+content.addEventListener('click',event=>{
+ const button=event.target.closest('.roman-commit');if(button){const step=Number(button.dataset.step);romanChosen.has(step)?romanChosen.delete(step):romanChosen.add(step);button.setAttribute('aria-pressed',romanChosen.has(step));try{localStorage.setItem('mindset-roman-commitments',JSON.stringify([...romanChosen]))}catch(_){} }
+ const link=event.target.closest('.roman-next');if(link){const target=document.querySelector(link.getAttribute('href'));if(target){target.setAttribute('tabindex','-1');target.focus({preventScroll:true})}}
+});
+let initial='en';try{const saved=localStorage.getItem('mindset-language');if(copy[saved])initial=saved}catch(_){}
+window.addEventListener('hashchange',()=>{const match=location.hash.match(/^#(en|ur|roman)-(?:reading|milestone-title)-/);if(match&&match[1]!==lang)render(match[1]);});
+const hashLanguage=location.hash.match(/^#(en|ur|roman)-(?:reading|milestone-title)-/);if(hashLanguage)initial=hashLanguage[1];render(initial);
+
 (()=>{const s=document.createElement('style');s.textContent=".rtl .reading-content p:first-child:first-letter{float:none;font:inherit;padding:0;color:inherit}\n.rtl .reading-content>p{font-size:clamp(21px,2vw,25px);line-height:2;margin-bottom:18px;scroll-margin-top:32px}\n.rtl .ur-source-heading{font-family:'Noto Naskh Arabic',serif;font-weight:700;font-size:clamp(29px,3.4vw,42px);line-height:1.65;color:#253b63;margin:35px 0 16px;scroll-margin-top:32px}\n.rtl .ur-milestone{--accent:#96451c;position:relative;isolation:isolate;background:linear-gradient(125deg,#fff2bc,#ffe0a6 55%,#ffd2bf);border:1px solid #eec48b;border-radius:28px;padding:clamp(24px,4vw,44px);margin:32px 0 38px;box-shadow:0 16px 42px #a4612224,inset 0 1px 0 #fff;color:#23334d;overflow:hidden}\n.rtl .ur-milestone:before{content:'';position:absolute;z-index:-1;inset:-70px auto auto -65px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,#ffffffb3,transparent 70%);pointer-events:none}\n.rtl .tone-1{--accent:#12665e;background:linear-gradient(125deg,#ddfaf4,#b8eee5 60%,#dcf3ff);border-color:#95d8cf}\n.rtl .tone-2{--accent:#663693;background:linear-gradient(125deg,#f6eaff,#e6d2ff 60%,#fce1ed);border-color:#cfb1eb}\n.rtl .tone-3{--accent:#9b3940;background:linear-gradient(125deg,#fff0d1,#ffd3c2 60%,#ffdfeb);border-color:#edb0a1}\n.rtl .milestone-kicker{font-size:16px;font-weight:700;color:var(--accent);display:flex;align-items:center;gap:12px}\n.rtl .milestone-star{font-size:30px;line-height:1;filter:drop-shadow(0 2px 8px #fff)}\n.rtl .ur-milestone h3{font-family:'Noto Naskh Arabic',serif;font-size:clamp(32px,4vw,49px);font-weight:700;line-height:1.6;margin:12px 0 8px;color:#172e4d;text-shadow:0 1px 0 #ffffff80}\n.rtl .ur-milestone p{font-size:clamp(20px,2vw,24px);line-height:1.85;margin:0;color:#2a3d59}\n.rtl .milestone-action{background:#ffffff9e;border:1px solid #ffffffbf;border-radius:16px;margin-top:22px;padding:16px 22px}\n.rtl .milestone-action strong{font-size:18px;color:var(--accent)}\n.rtl .milestone-controls{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin-top:25px}\n.rtl .milestone-commit{font-family:inherit;font-size:18px;font-weight:700;line-height:1.7;padding:12px 22px;border:0;border-radius:14px;background:#203c5b;color:white;cursor:pointer;min-height:48px;box-shadow:0 6px 15px #203c5b20;transition:background .2s}\n.rtl .milestone-commit[aria-pressed=true]{background:#176257}\n.rtl .milestone-next{font-size:19px;font-weight:700;color:#243f63;padding:10px 3px;text-underline-offset:6px;min-height:48px}\n.rtl .milestone-track{margin-top:26px;height:5px;border-radius:10px;overflow:hidden;background:#ffffffb3;direction:rtl}\n.rtl .milestone-track span{display:block;height:100%;background:var(--accent);border-radius:10px}\n.rtl .milestone-controls :focus-visible{outline:3px solid #243f63;outline-offset:5px}\n@media(max-width:600px){.rtl .milestone-controls{align-items:stretch;flex-direction:column}.rtl .milestone-commit{width:100%}.rtl .ur-milestone{border-radius:22px}.rtl .reading-meta{white-space:normal}.rtl .milestone-action{padding:14px 16px}}\n@media(prefers-reduced-motion:reduce){.rtl .milestone-commit{transition:none}}";document.head.append(s);})();
 (() => {
 const steps=[

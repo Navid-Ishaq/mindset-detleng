@@ -1,0 +1,191 @@
+{
+  "responsive": [
+    {
+      "width": 320,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 320,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 320,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 375,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 375,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 375,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 390,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 390,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 390,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 768,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 768,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 768,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1024,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1024,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1024,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1440,
+      "language": "en",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1440,
+      "language": "roman",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "ltr",
+      "brokenLinks": [],
+      "imageLoaded": true
+    },
+    {
+      "width": 1440,
+      "language": "ur",
+      "overflow": false,
+      "tabsFit": true,
+      "dir": "rtl",
+      "brokenLinks": [],
+      "imageLoaded": true
+    }
+  ],
+  "consoleErrors": [],
+  "romanNextLinks": 17,
+  "allNextLinksClicked": true,
+  "languageSaved": true,
+  "romanCommitmentRetainedAfterReload": true,
+  "keyboardNavigation": true,
+  "deepLinks": {
+    "urdu": {
+      "lang": "ur",
+      "hash": "#ur-reading-20",
+      "exists": true
+    },
+    "romanSwitch": {
+      "lang": "ur-Latn",
+      "hash": "#roman-reading-91",
+      "exists": true
+    }
+  },
+  "staticHTTP": true,
+  "failedResources": [],
+  "fontsLoaded": [
+    "DM Sans",
+    "Libre Baskerville",
+    "Noto Naskh Arabic"
+  ]
+}

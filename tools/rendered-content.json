@@ -1,0 +1,1391 @@
+{
+  "verifiedOn": "2026-10-02",
+  "fingerprints": {
+    "index.html": "d905a8e179322e481344d7342624d7e8be9bd814af125b3a508b3206fd03e585",
+    "content.js": "e7b5c2ef1fd51375c2cab91cae24dbe1df9e303dbdd2b3e51e940260f6a9dfe2",
+    "app.js": "264216bb01db04aedb3073d0b5e9acffab13f3a97fdd03a4bc3c9570a939902f",
+    "styles.css": "38146cc57cad1e8a788f1f1702eb90db3cda5fc8796ec52b27305ebc1035442a"
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "text": "Ek Nayi Shuruaat Aap ke Andar Se Janam Leti Hai",
+      "visible": true
+    },
+    {
+      "index": 1,
+      "text": "Apni Soch Badlo.",
+      "visible": true
+    },
+    {
+      "index": 2,
+      "text": "Apni Zindagi Badlo.",
+      "visible": true
+    },
+    {
+      "index": 3,
+      "text": "Aap ke khayalat aap ki zindagi ki simt tay karte hain. Yeh ek dawat hai ke kuch dair rukain, apne andar jagain, aur aage barhne ke liye zyada himmat wala rasta chunein.",
+      "visible": true
+    },
+    {
+      "index": 4,
+      "text": "Apna Safar Shuru Karein ↗",
+      "visible": true
+    },
+    {
+      "index": 5,
+      "text": "Ba-maani tabdeeli ke liye ek pur-sukoon jagah.",
+      "visible": true
+    },
+    {
+      "index": 6,
+      "text": "Roshni ki taraf barhta hua insaan",
+      "visible": true
+    },
+    {
+      "index": 7,
+      "text": "01 — Bedari",
+      "visible": true
+    },
+    {
+      "index": 8,
+      "text": "01 — Andar Ki Taraf Safar",
+      "visible": true
+    },
+    {
+      "index": 9,
+      "text": "Har tabdeeli ek khayal se shuru hoti hai.",
+      "visible": true
+    },
+    {
+      "index": 10,
+      "text": "Aahista parhein. In alfaaz ko wahan aap se milne dein jahan aap aaj kharay hain. In safhon mein shayad aap ko koi aisa sawal mil jaye jis se aap bach rahe thay, koi bhooli hui taqat dobara nazar aa jaye, ya us zindagi ki taraf pehla chhota qadam mil jaye jise aap waqai jeena chahte hain.",
+      "visible": true
+    },
+    {
+      "index": 11,
+      "text": "✦",
+      "visible": true
+    },
+    {
+      "index": 12,
+      "text": "Aap ki andarooni duniya qaid khana nahin. Yeh ek nuqta-e-aaghaz hai.",
+      "visible": true
+    },
+    {
+      "index": 13,
+      "text": "Mukammal Mutalea",
+      "visible": true
+    },
+    {
+      "index": 14,
+      "text": "Khula Hua Zehan, Wasee Tar Zindagi",
+      "visible": true
+    },
+    {
+      "index": 15,
+      "text": "70 hissay — apni raftaar se parhein",
+      "visible": true
+    },
+    {
+      "index": 16,
+      "text": "Soch Badlo, Zindagi Badal Do",
+      "visible": true
+    },
+    {
+      "index": 17,
+      "text": "Soch, Shaoor Aur Zindagi Ke Usool",
+      "visible": true
+    },
+    {
+      "index": 18,
+      "text": "Insaan ki asal zindagi us din shuru hoti hai jab woh apni soch ki zimmedari khud qabool kar leta hai.",
+      "visible": true
+    },
+    {
+      "index": 19,
+      "text": "Tum Sirf Zinda Rehne Ke Liye Paida Nahin Hue",
+      "visible": true
+    },
+    {
+      "index": 20,
+      "text": "Roshan Manzil 1 / 17",
+      "visible": true
+    },
+    {
+      "index": 21,
+      "text": "Apni Salahiyat Ko Pehchano",
+      "visible": true
+    },
+    {
+      "index": 22,
+      "text": "Tumhari kahani mein abhi bohat kuch baqi hai. Aage barho aur apne andar maujood us taqat ko pehchano jo shayad abhi tum khud bhi poori tarah nahin dekh paaye.",
+      "visible": true
+    },
+    {
+      "index": 23,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 24,
+      "text": "Apni ek aisi salahiyat yaad karo jise tum aur zyada nikharnay ka mauqa dena chahte ho.",
+      "visible": true
+    },
+    {
+      "index": 25,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 26,
+      "text": "Apni Taqat Daryaft Karo →",
+      "visible": true
+    },
+    {
+      "index": 27,
+      "text": "Tum is duniya mein sirf rozi kamane, logon ko khush karne, ya mushkil din guzarne ke liye nahin aaye.",
+      "visible": true
+    },
+    {
+      "index": 28,
+      "text": "Tumhare andar aisi salahiyatein maujood hain jo abhi poori tarah zahir nahin hui. Tum seekh sakte ho. Tum badal sakte ho. Tum takhleeq kar sakte ho. Tum kisi doosre insaan ki zindagi ko thora sa behtar bana sakte ho.",
+      "visible": true
+    },
+    {
+      "index": 29,
+      "text": "Tumhari umar tumhari kahani ka ikhtitam nahin. Yeh tumhare tajurbe, shaoor, samajh aur us taqat ka saboot hai jo tum ne saalon mein jama ki hai.",
+      "visible": true
+    },
+    {
+      "index": 30,
+      "text": "Har Subah Ek Naya Faisla Hai",
+      "visible": true
+    },
+    {
+      "index": 31,
+      "text": "Roshan Manzil 2 / 17",
+      "visible": true
+    },
+    {
+      "index": 32,
+      "text": "Aaj Ki Subah Tumhari Hai",
+      "visible": true
+    },
+    {
+      "index": 33,
+      "text": "Apni salahiyat pehchan li? Ab usay nayi simt dene ka waqt hai.",
+      "visible": true
+    },
+    {
+      "index": 34,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 35,
+      "text": "Aaj ke liye ek chhota, saaf aur waazeh faisla chuno.",
+      "visible": true
+    },
+    {
+      "index": 36,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 37,
+      "text": "Nayi Simt Ki Taraf Barho →",
+      "visible": true
+    },
+    {
+      "index": 38,
+      "text": "Kal tum jo thay, aaj wahi rehna zaroori nahin.",
+      "visible": true
+    },
+    {
+      "index": 39,
+      "text": "Har subah tumhare saamne do rastay khulte hain:",
+      "visible": true
+    },
+    {
+      "index": 40,
+      "text": "Wohi purani soch dohrate raho jo tumhein peeche rok kar rakhti hai;",
+      "visible": true
+    },
+    {
+      "index": 41,
+      "text": "ya phir apni zindagi ko ek nayi simt do.",
+      "visible": true
+    },
+    {
+      "index": 42,
+      "text": "Roshan Manzil 3 / 17",
+      "visible": true
+    },
+    {
+      "index": 43,
+      "text": "Faislay Se Rasta Banta Hai",
+      "visible": true
+    },
+    {
+      "index": 44,
+      "text": "Ek sacha aur durust faisla tumhare liye naya darwaza khol sakta hai. Ab khauf ko ek naye andaaz se dekhne ka waqt hai.",
+      "visible": true
+    },
+    {
+      "index": 45,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 46,
+      "text": "Socho, kaunsi purani aadat ke badle tum ek behtar intekhab kar sakte ho?",
+      "visible": true
+    },
+    {
+      "index": 47,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 48,
+      "text": "Khauf Ke Paar Dekho →",
+      "visible": true
+    },
+    {
+      "index": 49,
+      "text": "Tabdeeli aksar ek hi din mein mukammal nahin hoti.",
+      "visible": true
+    },
+    {
+      "index": 50,
+      "text": "Lekin kisi ek din kiya gaya ek sachcha faisla poori zindagi ki simt badal sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 51,
+      "text": "Khauf Tumhara Dushman Nahin",
+      "visible": true
+    },
+    {
+      "index": 52,
+      "text": "Khauf aksar us darwaze ke bahar khara hota hai jiske andar tumhari taraqqi tumhara intezar kar rahi hoti hai.",
+      "visible": true
+    },
+    {
+      "index": 53,
+      "text": "Khauf ka matlab hamesha yeh nahin hota:",
+      "visible": true
+    },
+    {
+      "index": 54,
+      "text": "“Ruk jao.”",
+      "visible": true
+    },
+    {
+      "index": 55,
+      "text": "Kabhi kabhi khauf sirf itna keh raha hota hai:",
+      "visible": true
+    },
+    {
+      "index": 56,
+      "text": "Tum apni purani hudood se bahar nikal rahe ho.",
+      "visible": true
+    },
+    {
+      "index": 57,
+      "text": "Roshan Manzil 4 / 17",
+      "visible": true
+    },
+    {
+      "index": 58,
+      "text": "Khauf Ke Saath Bhi Qadam Uthao",
+      "visible": true
+    },
+    {
+      "index": 59,
+      "text": "Himmat ka aaghaz us waqt bhi ho sakta hai jab yaqeen abhi poora na ho. Aage dekho ke amal kis tarah dheere dheere khud aitmaadi paida karta hai.",
+      "visible": true
+    },
+    {
+      "index": 60,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 61,
+      "text": "Apne khauf ke bawajood ek aisa chhota qadam socho jo tum aaj utha sakte ho.",
+      "visible": true
+    },
+    {
+      "index": 62,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 63,
+      "text": "Pehla Qadam Pehchano →",
+      "visible": true
+    },
+    {
+      "index": 64,
+      "text": "Tum apni un purani hudood se bahar nikal rahe ho jinhein kabhi tum ne permanent samajh liya tha.",
+      "visible": true
+    },
+    {
+      "index": 65,
+      "text": "Ek chhota qadam uthao.",
+      "visible": true
+    },
+    {
+      "index": 66,
+      "text": "Phir doosra.",
+      "visible": true
+    },
+    {
+      "index": 67,
+      "text": "Khud aitmaadi hamesha amal se pehle nahin aati.",
+      "visible": true
+    },
+    {
+      "index": 68,
+      "text": "Bohat dafa khud aitmaadi is liye paida hoti hai kyun ke tum ne darr ke bawajood amal kar diya.",
+      "visible": true
+    },
+    {
+      "index": 69,
+      "text": "Seekhna Umar Ka Paband Nahin",
+      "visible": true
+    },
+    {
+      "index": 70,
+      "text": "Jo insaan seekhna chhor deta hai, us ke andar kuch dheere dheere rukne lagta hai.",
+      "visible": true
+    },
+    {
+      "index": 71,
+      "text": "Roshan Manzil 5 / 17",
+      "visible": true
+    },
+    {
+      "index": 72,
+      "text": "Tum Ab Bhi Seekh Sakte Ho",
+      "visible": true
+    },
+    {
+      "index": 73,
+      "text": "Qadam uthane ki himmat, seekhne ki taqat ban sakti hai.",
+      "visible": true
+    },
+    {
+      "index": 74,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 75,
+      "text": "Ek nayi cheez chuno jise tum aaj sirf das minute de sakte ho.",
+      "visible": true
+    },
+    {
+      "index": 76,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 77,
+      "text": "Seekhne Ki Roshni Barhao →",
+      "visible": true
+    },
+    {
+      "index": 78,
+      "text": "Nayi zaban, nayi maharat, nayi technology, ya duniya ko dekhne ka naya tareeqa zehan ko zinda rakhta hai.",
+      "visible": true
+    },
+    {
+      "index": 79,
+      "text": "Har roz apne aap se poochho:",
+      "visible": true
+    },
+    {
+      "index": 80,
+      "text": "Aaj main kal se behtar kya samajh sakta hoon?",
+      "visible": true
+    },
+    {
+      "index": 81,
+      "text": "Ilm us waqt taqat banta hai jab woh sirf zehan mein na rahe, balki amal ke zariye zindagi mein utar aaye.",
+      "visible": true
+    },
+    {
+      "index": 82,
+      "text": "Roshan Manzil 6 / 17",
+      "visible": true
+    },
+    {
+      "index": 83,
+      "text": "Ilm Ko Zindagi Mein Utaro",
+      "visible": true
+    },
+    {
+      "index": 84,
+      "text": "Samajh barh rahi hai. Ab usay apne tajurbe aur amal ki taqat se joro.",
+      "visible": true
+    },
+    {
+      "index": 85,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 86,
+      "text": "Aaj seekhi hui ek baat ko socho. Tum use kahan istemal kar sakte ho?",
+      "visible": true
+    },
+    {
+      "index": 87,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 88,
+      "text": "Apne Tajurbe Ki Taqat Dekho →",
+      "visible": true
+    },
+    {
+      "index": 89,
+      "text": "Apni Takleef Ko Apni Taqat Banao",
+      "visible": true
+    },
+    {
+      "index": 90,
+      "text": "Zindagi ke mushkil tajurbe tumhein sirf torne ke liye nahin aaye.",
+      "visible": true
+    },
+    {
+      "index": 91,
+      "text": "Unhon ne tumhari gehraai banayi.",
+      "visible": true
+    },
+    {
+      "index": 92,
+      "text": "Tumhein samajh di.",
+      "visible": true
+    },
+    {
+      "index": 93,
+      "text": "Tumhein sabr diya.",
+      "visible": true
+    },
+    {
+      "index": 94,
+      "text": "Aur tumhare andar woh taqat paida ki jo shayad aasaan zindagi kabhi na de pati.",
+      "visible": true
+    },
+    {
+      "index": 95,
+      "text": "Jo insaan dard ko samajhta hai, woh doosron ko zyada narmi se samajh sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 96,
+      "text": "Jo mushkil se guzra ho, woh sabr ki asal qeemat jaanta hai.",
+      "visible": true
+    },
+    {
+      "index": 97,
+      "text": "Apni kahani se sharminda mat ho.",
+      "visible": true
+    },
+    {
+      "index": 98,
+      "text": "Mumkin hai tumhari zindagi ka wahi safha jise tum chhupana chahte ho, kisi din kisi aur insaan ke liye roshni ban jaye.",
+      "visible": true
+    },
+    {
+      "index": 99,
+      "text": "Roshan Manzil 7 / 17",
+      "visible": true
+    },
+    {
+      "index": 100,
+      "text": "Tumhari Kahani Roshni Ban Sakti Hai",
+      "visible": true
+    },
+    {
+      "index": 101,
+      "text": "Apni gehraai ko pehchano. Ab is taqat ko maqsad se jorne ka waqt hai.",
+      "visible": true
+    },
+    {
+      "index": 102,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 103,
+      "text": "Apni zindagi ke kisi ek mushkil tajurbe ko yaad karo aur socho:",
+      "visible": true
+    },
+    {
+      "index": 104,
+      "text": "Us ne tumhein kya sikhaya?",
+      "visible": true
+    },
+    {
+      "index": 105,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 106,
+      "text": "Maqsad Ki Taraf Barho →",
+      "visible": true
+    },
+    {
+      "index": 107,
+      "text": "Maqsad Milta Nahin, Banaya Jata Hai",
+      "visible": true
+    },
+    {
+      "index": 108,
+      "text": "Zindagi ka maqsad hamesha aasman se kisi wazeh jawab ki surat mein nahin utarta.",
+      "visible": true
+    },
+    {
+      "index": 109,
+      "text": "Maqsad dheere dheere tab banta hai jab tum:",
+      "visible": true
+    },
+    {
+      "index": 110,
+      "text": "kisi maslay ko hal karte ho;",
+      "visible": true
+    },
+    {
+      "index": 111,
+      "text": "kisi insaan ki mushkil aasaan karte ho;",
+      "visible": true
+    },
+    {
+      "index": 112,
+      "text": "apni salahiyat ko barhate ho;",
+      "visible": true
+    },
+    {
+      "index": 113,
+      "text": "jo seekhte ho woh doosron tak pohanchate ho;",
+      "visible": true
+    },
+    {
+      "index": 114,
+      "text": "aur apne kaam mein imandari, khuloos aur maani paida karte ho.",
+      "visible": true
+    },
+    {
+      "index": 115,
+      "text": "Roshan Manzil 8 / 17",
+      "visible": true
+    },
+    {
+      "index": 116,
+      "text": "Maqsad Ek Amal Se Shuru Hota Hai",
+      "visible": true
+    },
+    {
+      "index": 117,
+      "text": "Kabhi kisi ek insaan ki chhoti si mushkil aasaan karna hi ek ba-maani safar ka aaghaz ban jata hai.",
+      "visible": true
+    },
+    {
+      "index": 118,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 119,
+      "text": "Socho, tum aaj kis insaan ki ek chhoti si mushkil aasaan kar sakte ho?",
+      "visible": true
+    },
+    {
+      "index": 120,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 121,
+      "text": "Apni Salahiyat Ko Khidmat Banao →",
+      "visible": true
+    },
+    {
+      "index": 122,
+      "text": "Kisi ki madad karna;",
+      "visible": true
+    },
+    {
+      "index": 123,
+      "text": "apni salahiyat ko taraqqi dena;",
+      "visible": true
+    },
+    {
+      "index": 124,
+      "text": "apna ilm share karna;",
+      "visible": true
+    },
+    {
+      "index": 125,
+      "text": "apne kaam mein diyanat, khuloos aur maani lana—",
+      "visible": true
+    },
+    {
+      "index": 126,
+      "text": "yeh sab maqsad ko janam dete hain.",
+      "visible": true
+    },
+    {
+      "index": 127,
+      "text": "Roshan Manzil 9 / 17",
+      "visible": true
+    },
+    {
+      "index": 128,
+      "text": "Jo Jaante Ho, Use Baanto",
+      "visible": true
+    },
+    {
+      "index": 129,
+      "text": "Tumhara ilm sirf tumhara rehne ke liye nahin.",
+      "visible": true
+    },
+    {
+      "index": 130,
+      "text": "Woh kisi doosre insaan ke liye faida ban sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 131,
+      "text": "Ab apni asal qadar ko pehchano.",
+      "visible": true
+    },
+    {
+      "index": 132,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 133,
+      "text": "Ek aisi baat chuno jo tum jaante ho aur jo kisi doosre insaan ke kaam aa sakti hai.",
+      "visible": true
+    },
+    {
+      "index": 134,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 135,
+      "text": "Apni Asal Qadar Pehchano →",
+      "visible": true
+    },
+    {
+      "index": 136,
+      "text": "Maqsad ka ek bohat saada usool hai:",
+      "visible": true
+    },
+    {
+      "index": 137,
+      "text": "Jo kuch tum seekh rahe ho, use kisi aur ke faide ke liye istemal karo.",
+      "visible": true
+    },
+    {
+      "index": 138,
+      "text": "Tumhari Qadar Sirf Aamdani Nahin",
+      "visible": true
+    },
+    {
+      "index": 139,
+      "text": "Tumhari qadar tumhari tankhwah, degree, ohday ya muashrati haisiyat se bohat zyada hai.",
+      "visible": true
+    },
+    {
+      "index": 140,
+      "text": "Roshan Manzil 10 / 17",
+      "visible": true
+    },
+    {
+      "index": 141,
+      "text": "Tumhari Qadar Tumhare Andar Hai",
+      "visible": true
+    },
+    {
+      "index": 142,
+      "text": "Tumhara kirdar, tumhari hamdardi aur tumhara tajurba tumhari taqat hain. Ab inhein rozmarrah amal mein jagah do.",
+      "visible": true
+    },
+    {
+      "index": 143,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 144,
+      "text": "Apni ek aisi khoobi yaad karo jise koi tankhwah, koi ohda aur koi hisaab poori tarah naap nahin sakta.",
+      "visible": true
+    },
+    {
+      "index": 145,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 146,
+      "text": "Apni Taqat Ko Tasalsul Do →",
+      "visible": true
+    },
+    {
+      "index": 147,
+      "text": "Tumhari asal qadar tumhari niyyat mein hai.",
+      "visible": true
+    },
+    {
+      "index": 148,
+      "text": "Tumhare kirdar mein hai.",
+      "visible": true
+    },
+    {
+      "index": 149,
+      "text": "Tumhare tajurbe mein hai.",
+      "visible": true
+    },
+    {
+      "index": 150,
+      "text": "Tumhari hamdardi mein hai.",
+      "visible": true
+    },
+    {
+      "index": 151,
+      "text": "Aur us bhalaai mein hai jo tum doosron ki zindagi mein le kar aate ho.",
+      "visible": true
+    },
+    {
+      "index": 152,
+      "text": "Daulat zaroori hai.",
+      "visible": true
+    },
+    {
+      "index": 153,
+      "text": "Lekin daulat kabhi kisi insaan ka poora taaruf nahin ban sakti.",
+      "visible": true
+    },
+    {
+      "index": 154,
+      "text": "Pabandi, Josh Se Zyada Taqatwar Hai",
+      "visible": true
+    },
+    {
+      "index": 155,
+      "text": "Josh aata hai.",
+      "visible": true
+    },
+    {
+      "index": 156,
+      "text": "Josh chala jata hai.",
+      "visible": true
+    },
+    {
+      "index": 157,
+      "text": "Kabhi dil karta hai.",
+      "visible": true
+    },
+    {
+      "index": 158,
+      "text": "Kabhi nahin karta.",
+      "visible": true
+    },
+    {
+      "index": 159,
+      "text": "Roshan Manzil 11 / 17",
+      "visible": true
+    },
+    {
+      "index": 160,
+      "text": "Josh Se Aage, Musalsal Qadam",
+      "visible": true
+    },
+    {
+      "index": 161,
+      "text": "Ab apne maqsad ko aadat ka sahara do. Kyun ke zindagi sirf un dinon par nahin chalti jab dil bohat motivated ho.",
+      "visible": true
+    },
+    {
+      "index": 162,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 163,
+      "text": "Apne maqsad ke liye roz ka ek haqeeqi aur mumkin waqt tay karo.",
+      "visible": true
+    },
+    {
+      "index": 164,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 165,
+      "text": "Apni Aadat Banao →",
+      "visible": true
+    },
+    {
+      "index": 166,
+      "text": "Pabandi kehti hai:",
+      "visible": true
+    },
+    {
+      "index": 167,
+      "text": "Main perfect mood ka intezar nahin karunga. Main apne maqsad ki taraf qadam uthata rahunga.",
+      "visible": true
+    },
+    {
+      "index": 168,
+      "text": "Har roz apne mustaqbil ko kuch waqt do.",
+      "visible": true
+    },
+    {
+      "index": 169,
+      "text": "Ek ghanta ho to ek ghanta.",
+      "visible": true
+    },
+    {
+      "index": 170,
+      "text": "Das minute hon to das minute.",
+      "visible": true
+    },
+    {
+      "index": 171,
+      "text": "Qadam chhota ho sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 172,
+      "text": "Taraqqi khamosh ho sakti hai.",
+      "visible": true
+    },
+    {
+      "index": 173,
+      "text": "Lekin chhote qadam jab sabr aur tasalsul se dohraye jate hain, to woh ek din us zindagi ko mumkin bana dete hain jo kabhi door khwab lagti thi.",
+      "visible": true
+    },
+    {
+      "index": 174,
+      "text": "Apni Soch Ki Hifazat Karo",
+      "visible": true
+    },
+    {
+      "index": 175,
+      "text": "Roshan Manzil 12 / 17",
+      "visible": true
+    },
+    {
+      "index": 176,
+      "text": "Chhote Qadam, Barhti Hui Taqat",
+      "visible": true
+    },
+    {
+      "index": 177,
+      "text": "Tasalsul rasta banata hai.",
+      "visible": true
+    },
+    {
+      "index": 178,
+      "text": "Lekin us raste par chalne ke liye apne zehan ki hifazat bhi zaroori hai.",
+      "visible": true
+    },
+    {
+      "index": 179,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 180,
+      "text": "Kal dobara karne ke liye ek chhota sa amal tay karo.",
+      "visible": true
+    },
+    {
+      "index": 181,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 182,
+      "text": "Apni Soch Ki Hifazat Karo →",
+      "visible": true
+    },
+    {
+      "index": 183,
+      "text": "Jo kuch tum roz dekhte ho;",
+      "visible": true
+    },
+    {
+      "index": 184,
+      "text": "jo sunte ho;",
+      "visible": true
+    },
+    {
+      "index": 185,
+      "text": "jo parhte ho;",
+      "visible": true
+    },
+    {
+      "index": 186,
+      "text": "aur jo baar baar apne aap se kehte ho—",
+      "visible": true
+    },
+    {
+      "index": 187,
+      "text": "yeh sab mil kar tumhari andarooni duniya banate hain.",
+      "visible": true
+    },
+    {
+      "index": 188,
+      "text": "Har manfi awaaz ko apne andar ghar mat do.",
+      "visible": true
+    },
+    {
+      "index": 189,
+      "text": "Apne aap se usi narmi se baat karo jis narmi se tum kisi pyare dost se baat karte.",
+      "visible": true
+    },
+    {
+      "index": 190,
+      "text": "Kaho:",
+      "visible": true
+    },
+    {
+      "index": 191,
+      "text": "Main seekh sakta hoon.",
+      "visible": true
+    },
+    {
+      "index": 192,
+      "text": "Roshan Manzil 13 / 17",
+      "visible": true
+    },
+    {
+      "index": 193,
+      "text": "Apne Andar Meherban Awaaz Jagao",
+      "visible": true
+    },
+    {
+      "index": 194,
+      "text": "Tumhari apni awaaz tumhari dushman bhi ban sakti hai aur tumhara sahara bhi.",
+      "visible": true
+    },
+    {
+      "index": 195,
+      "text": "Use apna sahara banao.",
+      "visible": true
+    },
+    {
+      "index": 196,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 197,
+      "text": "Apne aap se kaho:",
+      "visible": true
+    },
+    {
+      "index": 198,
+      "text": "Main seekh sakta hoon. Main dobara shuru kar sakta hoon.",
+      "visible": true
+    },
+    {
+      "index": 199,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 200,
+      "text": "Apne Agle Baab Ki Taraf Barho →",
+      "visible": true
+    },
+    {
+      "index": 201,
+      "text": "Main dobara aaghaz kar sakta hoon.",
+      "visible": true
+    },
+    {
+      "index": 202,
+      "text": "Mere andar ab bhi salahiyat maujood hai.",
+      "visible": true
+    },
+    {
+      "index": 203,
+      "text": "Meri zindagi ka agla baab abhi likha nahin gaya.",
+      "visible": true
+    },
+    {
+      "index": 204,
+      "text": "Tumhari Agli Manzil Abhi Likhi Nahin Gayi",
+      "visible": true
+    },
+    {
+      "index": 205,
+      "text": "Roshan Manzil 14 / 17",
+      "visible": true
+    },
+    {
+      "index": 206,
+      "text": "Agla Baab Tumhare Ikhtiyar Mein Hai",
+      "visible": true
+    },
+    {
+      "index": 207,
+      "text": "Mazi se seekh kar aaj ek nayi tameer shuru ki ja sakti hai.",
+      "visible": true
+    },
+    {
+      "index": 208,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 209,
+      "text": "Aaj ek aisa intekhab socho jis par kal ka tum fakhr kar sake.",
+      "visible": true
+    },
+    {
+      "index": 210,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 211,
+      "text": "Apne Mustaqbil Ko Jagah Do →",
+      "visible": true
+    },
+    {
+      "index": 212,
+      "text": "Tumhari guzri hui ghaltiyan tumhare khilaf aakhri faisla nahin hain.",
+      "visible": true
+    },
+    {
+      "index": 213,
+      "text": "Tumhara haal woh jagah hai jahan tum apne mustaqbil ki buniyad rakh rahe ho.",
+      "visible": true
+    },
+    {
+      "index": 214,
+      "text": "Aaj tum seekhne wale ho sakte ho.",
+      "visible": true
+    },
+    {
+      "index": 215,
+      "text": "Kal tameer karne wale.",
+      "visible": true
+    },
+    {
+      "index": 216,
+      "text": "Aur ek din shayad aise ustad jo apne tajurbe se kisi aur ko himmat de.",
+      "visible": true
+    },
+    {
+      "index": 217,
+      "text": "Zindagi ka sab se khoobsurat hissa aksar woh hota hai jo abhi aana baqi hota hai.",
+      "visible": true
+    },
+    {
+      "index": 218,
+      "text": "Roshan Manzil 15 / 17",
+      "visible": true
+    },
+    {
+      "index": 219,
+      "text": "Tumhari Manzil Abhi Baqi Hai",
+      "visible": true
+    },
+    {
+      "index": 220,
+      "text": "Seekhne se tameer.",
+      "visible": true
+    },
+    {
+      "index": 221,
+      "text": "Tameer se khidmat.",
+      "visible": true
+    },
+    {
+      "index": 222,
+      "text": "Khidmat se kisi aur ko himmat.",
+      "visible": true
+    },
+    {
+      "index": 223,
+      "text": "Safar yahan rukta nahin.",
+      "visible": true
+    },
+    {
+      "index": 224,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 225,
+      "text": "Socho:",
+      "visible": true
+    },
+    {
+      "index": 226,
+      "text": "Tumhari taraqqi se kis doosre insaan ko faida ho sakta hai?",
+      "visible": true
+    },
+    {
+      "index": 227,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 228,
+      "text": "Maani Ki Taraf Barho →",
+      "visible": true
+    },
+    {
+      "index": 229,
+      "text": "Aakhri Paigham",
+      "visible": true
+    },
+    {
+      "index": 230,
+      "text": "Apni poori zindagi har cheez ko perfect banane mein mat laga do.",
+      "visible": true
+    },
+    {
+      "index": 231,
+      "text": "Use ba-maqsad banao.",
+      "visible": true
+    },
+    {
+      "index": 232,
+      "text": "Har roz kuch seekho.",
+      "visible": true
+    },
+    {
+      "index": 233,
+      "text": "Jab mumkin ho kisi ki madad karo.",
+      "visible": true
+    },
+    {
+      "index": 234,
+      "text": "Apni sehat ka khayal rakho.",
+      "visible": true
+    },
+    {
+      "index": 235,
+      "text": "Apne zehan ka khayal rakho.",
+      "visible": true
+    },
+    {
+      "index": 236,
+      "text": "Apne andar ke sukoon ki hifazat karo.",
+      "visible": true
+    },
+    {
+      "index": 237,
+      "text": "Apne Rab ke saamne sachche raho.",
+      "visible": true
+    },
+    {
+      "index": 238,
+      "text": "Apne zameer ke saamne sachche raho.",
+      "visible": true
+    },
+    {
+      "index": 239,
+      "text": "Aur us maqsad ke saamne sachche raho jo tumhare andar amanat ki tarah rakha gaya hai.",
+      "visible": true
+    },
+    {
+      "index": 240,
+      "text": "Tum dair se nahin aaye.",
+      "visible": true
+    },
+    {
+      "index": 241,
+      "text": "Roshan Manzil 16 / 17",
+      "visible": true
+    },
+    {
+      "index": 242,
+      "text": "Perfect Hone Se Pehle Ba-Maqsad Bano",
+      "visible": true
+    },
+    {
+      "index": 243,
+      "text": "Ab jo kuch parha hai uski roshni ko zindagi ke ek haqeeqi amal mein le jao.",
+      "visible": true
+    },
+    {
+      "index": 244,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 245,
+      "text": "Aaj ke liye ek amal chuno:",
+      "visible": true
+    },
+    {
+      "index": 246,
+      "text": "seekhna,",
+      "visible": true
+    },
+    {
+      "index": 247,
+      "text": "khidmat,",
+      "visible": true
+    },
+    {
+      "index": 248,
+      "text": "ya apni sehat aur andarooni sukoon ka khayal.",
+      "visible": true
+    },
+    {
+      "index": 249,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 250,
+      "text": "Aakhri Paigham Dil Se Parho →",
+      "visible": true
+    },
+    {
+      "index": 251,
+      "text": "Tum khatam nahin hue.",
+      "visible": true
+    },
+    {
+      "index": 252,
+      "text": "Tum abhi bhi ban rahe ho.",
+      "visible": true
+    },
+    {
+      "index": 253,
+      "text": "Abhi bhi seekh rahe ho.",
+      "visible": true
+    },
+    {
+      "index": 254,
+      "text": "Abhi bhi badal rahe ho.",
+      "visible": true
+    },
+    {
+      "index": 255,
+      "text": "Abhi bhi tumhare andar kuch naya janam le sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 256,
+      "text": "Aur jab tak insaan seekhne ke liye tayyar hai, uski kahani zinda hai.",
+      "visible": true
+    },
+    {
+      "index": 257,
+      "text": "Har Insaan Ke Liye Taraqqi, Maqsad Aur Baatin Ki Bedari Ka Safar",
+      "visible": true
+    },
+    {
+      "index": 258,
+      "text": "Seekho → Samjho → Amal Karo → Baanto → Taraqqi Karo → Roshni Bano",
+      "visible": true
+    },
+    {
+      "index": 259,
+      "text": "Masnooi Zehant Se Takhleeq Kardah Mawad — Muhammad Naveed Ishaque",
+      "visible": true
+    },
+    {
+      "index": 260,
+      "text": "Roshan Manzil 17 / 17",
+      "visible": true
+    },
+    {
+      "index": 261,
+      "text": "Ab Roshni Aage Barhao",
+      "visible": true
+    },
+    {
+      "index": 262,
+      "text": "Tumhara chuna hua chhota amal is safar ko sirf alfaaz tak mehdood rehne se bacha sakta hai.",
+      "visible": true
+    },
+    {
+      "index": 263,
+      "text": "Use zindagi mein le jao.",
+      "visible": true
+    },
+    {
+      "index": 264,
+      "text": "Ab Ek Chhota Amal",
+      "visible": true
+    },
+    {
+      "index": 265,
+      "text": "Pehla qadam aaj uthao.",
+      "visible": true
+    },
+    {
+      "index": 266,
+      "text": "Aur kal use dobara ek mauqa do.",
+      "visible": true
+    },
+    {
+      "index": 267,
+      "text": "Yeh Qadam Mera Azm Hai ✓",
+      "visible": true
+    },
+    {
+      "index": 268,
+      "text": "Apne Azm Ko Taaza Karo →",
+      "visible": true
+    },
+    {
+      "index": 269,
+      "text": "Agla Baab Aap Ka Hai",
+      "visible": true
+    },
+    {
+      "index": 270,
+      "text": "Aap ko nayi zindagi ki zaroorat nahin.",
+      "visible": true
+    },
+    {
+      "index": 271,
+      "text": "Aap ko ek nayi nazar ki zaroorat hai.",
+      "visible": true
+    },
+    {
+      "index": 272,
+      "text": "Ibtida Ki Taraf Wapas Jayein ↑",
+      "visible": true
+    },
+    {
+      "index": 273,
+      "text": "mindset.detleng",
+      "visible": true
+    },
+    {
+      "index": 274,
+      "text": "Masnooi zehant se takhleeq kardah mawad — Muhammad Naveed Ishaque",
+      "visible": true
+    },
+    {
+      "index": 275,
+      "text": "© 2026 · Mukhtalif Sochne Ki Ek Jagah",
+      "visible": true
+    }
+  ]
+}

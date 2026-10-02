@@ -1,0 +1,27 @@
+{
+  "roman": {
+    "sourceBlocks": 276,
+    "websiteBlocks": 276,
+    "missing": 0,
+    "orderMatches": true,
+    "milestones": 17,
+    "allVisible": true
+  },
+  "english": {
+    "sourceBlocks": 75,
+    "websiteBlocks": 75,
+    "sourceAndRenderedTextUnchanged": true,
+    "milestones": 19
+  },
+  "urdu": {
+    "sourceBlocks": 70,
+    "websiteBlocks": 70,
+    "sourceAndRenderedTextUnchanged": true,
+    "milestones": 17,
+    "rtl": true
+  },
+  "docxUnchanged": true,
+  "cnameUnchanged": true,
+  "domain": "mindset.detleng.com",
+  "noPushPerformed": true
+}
